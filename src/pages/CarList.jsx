@@ -37,7 +37,7 @@ const CarList = () => {
           nextLabel={"→"}
           pageCount={10}
           onPageChange={handlePageClick}
-          containerClassName="flex item-center justify-center gap-5 py-10 mt-10 text-gray-700"
+          containerClassName="flex item-center justify-center gap-5 py-10 text-gray-700"
           activeClassName="bg-sky-400 px-2 rounded-full text-white"
         />
       </section>
