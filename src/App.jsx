@@ -1,0 +1,20 @@
+import { Route, Routes } from 'react-router-dom'
+import './App.css'
+import CarList from './pages/CarList'
+import Search from './pages/Search'
+import Navbar from './components/Navbar'
+
+
+const App = () => {
+  return (
+    <main className="w-full min-h-screen mx-auto overflow-hidden bg-sky-50 flex flex-col">
+      <Navbar/>
+    <Routes>
+      <Route path="/" element={<CarList />} />
+      <Route path='/search/:query' element={<Search/>}/>
+    </Routes>
+  </main>
+  )
+}
+
+export default App
