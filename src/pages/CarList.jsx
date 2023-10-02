@@ -23,7 +23,7 @@ const CarList = () => {
   }, [cars, currentPage]);
 
   return (
-    <main className="w-full h-full flex flex-col mt-5 px-5">
+    <main className="w-full h-full flex flex-col my-5 px-5">
       <section className="grid grid-cols-3 gap-10">
         {currentPageData.map((car) => (
           <section key={car.id}>
