@@ -1,5 +1,8 @@
 # Car Showcase 
 
+
+<img src="https://i.ibb.co/0Z8NG0F/Screenshot-426.png" alt="Screenshot-426" border="0" width='60%' />
+
 Welcome to the Car Search Website in React.js! This website allows users to search for cars, paginate through the results. The website is optimized for desktop-only screens and provides a user-friendly experience for searching and browsing cars.
 
 ## Features
