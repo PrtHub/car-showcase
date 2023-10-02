@@ -30,13 +30,13 @@ const Search = () => {
 
   return (
     <main className="w-full h-full flex flex-col my-5 px-5">
-    <section className="grid grid-cols-3 gap-10">
-      {searchResult?.map((car, index) => (
-        <section key={`${car.id}-${index}`}>
-          <CarCard car={car} />
-        </section>
-      ))}
-    </section>
+      <section className="grid grid-cols-3 gap-10">
+        {searchResult?.map((car, index) => (
+          <section key={`${car.id}-${index}`}>
+            <CarCard car={car} />
+          </section>
+        ))}
+      </section>
     </main>
   );
 };

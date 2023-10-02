@@ -7,7 +7,7 @@ import { useMemo, useState } from "react";
 import ReactPaginate from "react-paginate";
 
 const CarList = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(1);
 
   const carParPage = 6;
