@@ -23,21 +23,13 @@ Welcome to the Car Search Website in React.js! This website allows users to sear
 
 ### Installation
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine: `git clone https://github.com/PrtHub/car-showcase`
 
- git clone https://github.com/PrtHub/car-showcase
+2. Navigate to the project directory: `cd car-showcase`
 
-2. Navigate to the project directory:
+3. Install the project dependencies:`npm install`
 
- cd car-showcase
-
-3. Install the project dependencies:
-
-npm install
-
-4. Start the development server:
-
-npm start
+4. Start the development server: `npm start`
 
 The website should now be running locally at http://localhost:3000 or https://localhost:5173.
 
