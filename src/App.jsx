@@ -10,7 +10,8 @@ const App = () => {
     <main className="w-full max-w-7xl min-h-screen mx-auto overflow-hidden bg-sky-50 flex flex-col">
       <Navbar/>
     <Routes>
-      <Route path="/" element={<CarList />} />
+      <Route path="/" element={<CarList/>} />
+      <Route path="/page/:page" element={<CarList />} />
       <Route path='/search/:query' element={<Search/>}/>
     </Routes>
   </main>

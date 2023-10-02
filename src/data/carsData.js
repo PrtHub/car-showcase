@@ -67,5 +67,27 @@ export const cars = [
     year: '2023',
     price:'₹39.41 - 41.2 Lakhs'
   },
+  {
+    id: 7,
+    img: car6,
+    title: "Toyota Camry",
+    capacity: 5,
+    transmission: 'Automatic',
+    fuel: "Hybrid",
+    engine: "2487.0 cc",
+    year: '2023',
+    price:'₹39.41 - 41.2 Lakhs'
+  },
+  {
+    id: 8,
+    img: car6,
+    title: "Toyota Camry",
+    capacity: 5,
+    transmission: 'Automatic',
+    fuel: "Hybrid",
+    engine: "2487.0 cc",
+    year: '2023',
+    price:'₹39.41 - 41.2 Lakhs'
+  },
   
 ];
