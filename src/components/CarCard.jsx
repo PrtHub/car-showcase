@@ -1,8 +1,11 @@
+/* eslint-disable react/prop-types */
 
 
-const CarCard = () => {
+const CarCard = ({car}) => {
   return (
-    <div>CarCard</div>
+    <section className="w-96 h-80">
+       <img src={car.img} alt="" />
+    </section>
   )
 }
 
