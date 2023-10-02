@@ -1,4 +1,4 @@
-import { car1, car2, car3 } from "../assets";
+import { car1, car2, car3, car4, car5, car6 } from "../assets";
 
 export const cars = [
   {
@@ -33,7 +33,7 @@ export const cars = [
   },
   {
     id: 4,
-    img: car3,
+    img: car4,
     ttile: "Audi A4",
     capacity: 5,
     Transmission: 'Automatic',
@@ -43,13 +43,23 @@ export const cars = [
   },
   {
     id: 5,
-    img: car3,
+    img: car5,
     ttile: "BMW 3 Series",
     capacity: 5,
     Transmission: 'Automatic',
     Fuel: "Petrol",
     engine: "2998 cc",
     price:'₹42.3 - 62.9 Lakhs'
+  },
+  {
+    id: 6,
+    img: car6,
+    ttile: "Toyota Camry",
+    capacity: 5,
+    Transmission: 'Automatic',
+    Fuel: "Hybrid",
+    engine: "2487.0 cc",
+    price:'₹39.41 - 41.2 Lakhs'
   },
   
 ];
