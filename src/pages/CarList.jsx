@@ -5,6 +5,7 @@ import CarCard from "../components/CarCard";
 import { cars } from "../data/carsData";
 import { useMemo, useState } from "react";
 import ReactPaginate from "react-paginate";
+import Seo from "../components/Seo";
 
 const CarList = () => {
   const navigate = useNavigate();
@@ -23,6 +24,8 @@ const CarList = () => {
   }, [cars, currentPage]);
 
   return (
+    <>
+    <Seo title="Car Showcase - Find, Compare, and Book Your Dream Car"/>
     <main className="w-full h-full flex flex-col my-5 px-5">
       <section className="grid grid-cols-3 gap-10">
         {currentPageData.map((car) => (
@@ -42,6 +45,7 @@ const CarList = () => {
         />
       </section>
     </main>
+    </>
   );
 };
 
